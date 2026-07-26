@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shubham Sharma | Student, Lyricist & Creator Portfolio</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <!-- Font Awesome updated to 6.5.1 so fa-x-twitter renders correctly -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/style/shubham.css">
+    <link rel="stylesheet" href="shubham.css">
 </head>
 <body class="relative antialiased selection:bg-cyan-500/30 selection:text-white">
     <canvas id="starfield-canvas"></canvas>
@@ -29,6 +28,14 @@
                 <a href="#hobbies" class="text-gray-300 hover:text-[#00f2fe] transition-colors">Hobbies</a>
                 <a href="#socials" class="text-gray-300 hover:text-[#00f2fe] transition-colors">Connect</a>
             </div>
+            
+            <div class="hidden md:block">
+                <a href="https://youtube.com/@shubhamandlots?si=_EtqaTRaD14V1550" target="_blank" rel="noopener noreferrer"
+                    class="px-4 py-1.5 rounded-full border border-red-500/20 bg-red-500/10 text-xs font-semibold tracking-wider text-red-400 hover:bg-red-500/20 transition-all flex items-center gap-1.5">
+                    <i class="fa-brands fa-youtube text-sm"></i> YouTube Channel <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+                </a>
+            </div>
+
             <button id="menuBtn" class="md:hidden text-gray-300 focus:outline-none cursor-pointer z-50 p-2">
                 <i class="fa-solid fa-bars text-xl transition-transform duration-300"></i>
             </button>
@@ -38,6 +45,9 @@
             <a href="#about" class="text-gray-300 hover:text-[#00f2fe]">About</a>
             <a href="#hobbies" class="text-gray-300 hover:text-[#00f2fe]">Hobbies</a>
             <a href="#socials" class="text-gray-300 hover:text-[#00f2fe]">Connect</a>
+            <a href="https://youtube.com/@shubhamandlots?si=_EtqaTRaD14V1550" target="_blank" rel="noopener noreferrer" class="pt-2 text-red-400 border-t border-white/5 flex items-center gap-2">
+                <i class="fa-brands fa-youtube"></i> Visit YouTube →
+            </a>
         </div>
     </nav>
 
@@ -57,14 +67,14 @@
                     <span class="typing-text font-mono text-xs md:text-sm tracking-widest text-[#00f2fe] uppercase font-semibold"></span>
                 </div>
                 <p class="text-gray-400 text-base md:text-lg max-w-xl leading-relaxed">
-                    I live in Patna, Bihar and I'm currently pursuing my B.Com (2nd Year) at College of Commerce, Arts and Science, Patna. I finished my schooling from Kendriya Vidyalaya Baikunthpur, Chhattisgarh. Outside academics, I love writing songs &amp; shayari, singing, and playing cricket.
+                    I live in Patna, Bihar and I'm currently pursuing my B.Com (2nd Year) at College of Commerce, Arts and Science, Patna. I finished my schooling from Kendriya Vidyalaya Baikunthpur, Chhattisgarh. Outside academics, I love writing songs &amp; shayari, singing, creating videos on YouTube, and playing cricket.
                 </p>
                 <div class="flex flex-wrap gap-4 pt-2">
                     <a href="#socials" class="px-6 py-3 rounded-xl font-semibold text-sm bg-gradient-to-r from-blue-500 to-indigo-600 text-white shadow-lg shadow-blue-500/20 hover:shadow-blue-500/30 transition-all hover:scale-[1.02]">
                         Connect With Me
                     </a>
-                    <a href="#hobbies" class="neon-btn-blue px-6 py-3 rounded-xl font-semibold text-sm text-[#00f2fe] transition-all flex items-center gap-2">
-                        My Hobbies &amp; Passions <i class="fa-solid fa-arrow-right text-xs"></i>
+                    <a href="https://youtube.com/@shubhamandlots?si=_EtqaTRaD14V1550" target="_blank" rel="noopener noreferrer" class="neon-btn-blue px-6 py-3 rounded-xl font-semibold text-sm text-[#00f2fe] transition-all flex items-center gap-2">
+                        YouTube Channel <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
                     </a>
                 </div>
             </div>
@@ -73,7 +83,7 @@
             <div class="lg:col-span-5 flex justify-center">
                 <div class="animated-floating-avatar relative w-full max-w-[380px] aspect-square rounded-3xl overflow-hidden shadow-[0_0_25px_rgba(157,78,221,0.2)] border border-purple-500/30 bg-slate-950/40 backdrop-blur-md p-2">
                     <div class="w-full h-full rounded-2xl overflow-hidden relative">
-                        <img src="assets/img/shubham.png" alt="Shubham Sharma" class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
+                        <img src="shubham.png" alt="Shubham Sharma" class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
                         <div class="absolute inset-0 bg-gradient-to-t from-[#020208] via-transparent to-transparent opacity-40"></div>
                     </div>
                 </div>
@@ -119,9 +129,9 @@
                     <p class="text-gray-400 text-xs leading-relaxed">Crafting meaningful song lyrics, poetry, and heartfelt shayari in Hindi and Urdu styles.</p>
                 </div>
                 <div class="glass-card rounded-2xl p-6 space-y-2">
-                    <i class="fa-solid fa-icons text-lg text-yellow-400"></i>
-                    <h4 class="font-bold text-base text-gray-200">Sports &amp; Music</h4>
-                    <p class="text-gray-400 text-xs leading-relaxed">Avid cricket player and passionate singer, always aiming for rhythm on and off the field.</p>
+                    <i class="fa-solid fa-video text-lg text-red-400"></i>
+                    <h4 class="font-bold text-base text-gray-200">Content Creation</h4>
+                    <p class="text-gray-400 text-xs leading-relaxed">Creating engaging video content and sharing creative work on YouTube (@shubhamandlots).</p>
                 </div>
             </div>
         </div>
@@ -174,23 +184,23 @@
     </section>
 
     <!-- Social Media & Contact Connections Section -->
-    <section id="socials" class="py-24 px-6 max-w-6xl mx-auto z-10 relative reveal">
+    <section id="socials" class="py-24 px-6 max-w-7xl mx-auto z-10 relative reveal">
         <div class="text-center max-w-3xl mx-auto mb-16">
             <h2 class="text-3xl md:text-4xl font-extrabold mb-3">Connect With Me</h2>
-            <p class="text-gray-400 text-sm">Follow my work, poetry, songs, and updates on social media or reach out via email.</p>
+            <p class="text-gray-400 text-sm">Follow my work, poetry, videos, and updates across platforms or reach out via email.</p>
             <div class="w-16 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto mt-4 rounded-full"></div>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            <!-- Email Card -->
-            <a href="mailto:shubhamkumar77193@gmail.com" class="glass-card rounded-2xl p-6 flex flex-col items-center text-center group hover:scale-105 transition-all duration-300">
-                <div class="w-14 h-14 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-2xl text-emerald-400 mb-4 group-hover:bg-emerald-500 group-hover:text-white transition-all">
-                    <i class="fa-solid fa-envelope"></i>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+            <!-- YouTube Card -->
+            <a href="https://youtube.com/@shubhamandlots?si=_EtqaTRaD14V1550" target="_blank" rel="noopener noreferrer" class="glass-card rounded-2xl p-6 flex flex-col items-center text-center group hover:scale-105 transition-all duration-300">
+                <div class="w-14 h-14 rounded-2xl bg-red-500/10 border border-red-500/20 flex items-center justify-center text-2xl text-red-500 mb-4 group-hover:bg-red-500 group-hover:text-white transition-all">
+                    <i class="fa-brands fa-youtube"></i>
                 </div>
-                <h3 class="text-lg font-bold text-gray-200 mb-1">Email</h3>
-                <p class="text-gray-400 text-xs mb-4">Send me a direct message or collaboration idea.</p>
-                <span class="inline-flex items-center gap-1.5 text-[11px] font-semibold text-emerald-400 group-hover:text-emerald-300 uppercase tracking-wider">
-                    Send Email <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+                <h3 class="text-lg font-bold text-gray-200 mb-1">YouTube</h3>
+                <p class="text-gray-400 text-xs mb-4">Watch my latest videos &amp; creative content.</p>
+                <span class="inline-flex items-center gap-1.5 text-[11px] font-semibold text-red-400 group-hover:text-red-300 uppercase tracking-wider">
+                    @shubhamandlots <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
                 </span>
             </a>
 
@@ -203,6 +213,18 @@
                 <p class="text-gray-400 text-xs mb-4">Follow for songs, shayari &amp; reel updates.</p>
                 <span class="inline-flex items-center gap-1.5 text-[11px] font-semibold text-pink-400 group-hover:text-pink-300 uppercase tracking-wider">
                     @shubh4m1218 <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+                </span>
+            </a>
+
+            <!-- Email Card -->
+            <a href="mailto:shubhamkumar77193@gmail.com" class="glass-card rounded-2xl p-6 flex flex-col items-center text-center group hover:scale-105 transition-all duration-300">
+                <div class="w-14 h-14 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-2xl text-emerald-400 mb-4 group-hover:bg-emerald-500 group-hover:text-white transition-all">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <h3 class="text-lg font-bold text-gray-200 mb-1">Email</h3>
+                <p class="text-gray-400 text-xs mb-4">Send me a direct message or collaboration idea.</p>
+                <span class="inline-flex items-center gap-1.5 text-[11px] font-semibold text-emerald-400 group-hover:text-emerald-300 uppercase tracking-wider">
+                    Send Email <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
                 </span>
             </a>
 
@@ -235,13 +257,13 @@
     <!-- Footer -->
     <footer class="border-t border-white/5 py-8 text-center z-10 relative px-6 space-y-2">
         <p class="text-xs tracking-widest text-gray-400 uppercase font-mono">
-            Designed with ❤️ by Shubham Sharma • Patna, Bihar
+            Designed for Shubham Sharma • Patna, Bihar
         </p>
         <p class="text-xs font-mono text-gray-500">
             Email: <a href="mailto:shubhamkumar77193@gmail.com" class="text-cyan-400 hover:underline">shubhamkumar77193@gmail.com</a>
         </p>
     </footer>
 
-    <script src="assets/js/shubham.js"></script>
+    <script src="shubham.js"></script>
 </body>
 </html>
